@@ -1,0 +1,34 @@
+body {
+    width: 550px;
+    margin: auto;
+    background: #EAF2EF;
+}    
+
+h1 {
+    border-bottom: 1px solid black;
+    font-family: 'Merienda';
+
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    font-size: 45pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+#message {
+    font-size: 18pt;
+    font-family: 'Merienda', cursive;
+}
+
+#restart {
+    font-size: 15pt;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    color: black;
+    
+}
