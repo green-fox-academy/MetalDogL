@@ -59,7 +59,7 @@ class Violin extends StringedInstrument {
   }
 }
 
-export { ElectricGuitar, BassGuitar, Violin };
+export { ElectricGuitar, BassGuitar, Violin };   // this is how to export Objects
 
 
 

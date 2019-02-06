@@ -1,4 +1,4 @@
-import { ElectricGuitar, BassGuitar, Violin } from './stringInstrumentsMain';
+import { ElectricGuitar, BassGuitar, Violin } from './stringInstrumentsMain';  // importing Objects like DIZ
 
 console.log('Test 1, create Electric Guitar, Bass Guitar and Violin with default strings.');
 let guitar = new ElectricGuitar();
