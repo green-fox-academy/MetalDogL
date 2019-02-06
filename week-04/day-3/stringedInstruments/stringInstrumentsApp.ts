@@ -1,3 +1,5 @@
+import { ElectricGuitar, BassGuitar, Violin } from './stringInstrumentsMain';
+
 console.log('Test 1, create Electric Guitar, Bass Guitar and Violin with default strings.');
 let guitar = new ElectricGuitar();
 let bassGuitar = new BassGuitar();

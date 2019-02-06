@@ -9,7 +9,7 @@ abstract class StringedInstrument extends Instrument {
 }
 
 class ElectricGuitar extends StringedInstrument {
-  name: string = 'ElectricGuitar';
+  name: string = 'Electric Guitar';
 
   constructor (strings: number = 6) {
     super();
@@ -20,7 +20,46 @@ class ElectricGuitar extends StringedInstrument {
     return 'Twang';
   }
 
-  play() {
-    console.log(`${this.name}, a ${this.numberOfStrings} instrument that goes ${this.sound}.');
+  play() :void {
+    console.log(`${this.name}, a ${this.numberOfStrings} instrument that goes ${this.sound()}.`);
   }
 }
+
+class BassGuitar extends StringedInstrument {
+  name: string = 'Bass Guitar';
+
+  constructor (strings: number = 4) {
+    super();
+    this.numberOfStrings = strings;
+  }
+
+  sound() {
+    return 'Duum-duum-duum';
+  }
+
+  play() :void {
+    console.log(`${this.name}, a ${this.numberOfStrings} instrument that goes ${this.sound()}.`);
+  }
+}
+
+class Violin extends StringedInstrument {
+  name: string = 'Violin';
+
+  constructor (strings: number = 4) {
+    super();
+    this.numberOfStrings = strings;
+  }
+
+  sound() {
+    return 'Screech';
+  }
+
+  play() :void {
+    console.log(`${this.name}, a ${this.numberOfStrings} instrument that goes ${this.sound()}.`);
+  }
+}
+
+export { ElectricGuitar, BassGuitar, Violin };
+
+
+
